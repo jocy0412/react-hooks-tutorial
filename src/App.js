@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Info_useEffect.js
+// import Info from './Info_useEffect';
+// function App() {
+//   const [visible, setVisible] = useState(false);
+//   return (
+//     <div>
+//       <button
+//         onClick={() => {
+//           setVisible(!visible);
+//         }}
+//       >
+//         {visible ? '숨기기' : '보이기'}
+//       </button>
+//       <hr />
+//       {visible && <Info />}
+//     </div>
+//   );
+// }
+
+// Counter.js
+// import Counter from './Counter';
+// function App() {
+//   return (
+//     <div>
+//       <Counter />
+//     </div>
+//   );
+// }
+
+// info.js
+// import Info from './Info';
+// const App = () => {
+//   return <Info />;
+// }
+
+// Average.js
+import Average from './Average';
+const App = () => {
+  return <Average />;
 }
 
 export default App;
